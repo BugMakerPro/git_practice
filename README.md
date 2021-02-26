@@ -9,6 +9,7 @@ git push
 #### 2.1 应用场景
 对于一个项目，你可能会多次提交代码，每次提交都对应一个`commit sha`  
 
+
 ![avatar](./pic/1.jpg)  
 
 当完成项目，要进行分支合并的时候，只想保留一个或某几个commit，这时候就需要合并commit了。
@@ -31,6 +32,7 @@ git rebase -i <commit_sha>
 
 这时我们想要把前七个commit合并成一个，即：  
 ![avatar](./pic/3.jpg)  
+
 
 
 
